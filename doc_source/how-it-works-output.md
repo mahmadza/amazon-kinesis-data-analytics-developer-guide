@@ -1,6 +1,6 @@
 # Configuring Application Output<a name="how-it-works-output"></a>
 
-In your application code, you write the output of SQL statements to one or more in\-application streams\. You can optionally add an output configuration to your application\. to persist everything written to an in\-application stream to an external destination such as an Amazon Kinesis data stream, a Kinesis Data Firehose delivery stream, or an AWS Lambda function\. 
+In your application code, you write the output of SQL statements to one or more in\-application streams\. To persist an application output, you can optionally add an output configuration to your application to an external destination such as an Amazon Kinesis data stream, a Kinesis Data Firehose delivery stream, or an AWS Lambda function\. 
 
 There is a limit on the number of external destinations you can use to persist an application output\. For more information, see [Limits](limits.md)\. 
 
